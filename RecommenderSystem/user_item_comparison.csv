@@ -1,0 +1,5 @@
+Goal: Predict rating for user m on item n		
+Item	User-based CF	Item-based CF
+Neighborhood	"Simlar users, rows of rating matrix"	"Similar items, columns of rating matrix"
+Principle	Find similar user as user m	Find similar items as item n 
+Rating Prediction	Weighted avg of simiar users group rating on n	Weighted avg of simiar items rating on n with user m own rating
